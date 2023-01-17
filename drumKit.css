@@ -4,16 +4,22 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url();
+    background-image: url(pianoproject.jpg);
+    background-size: cover;
 }
 .container{
     display: flex;
     background-color: brown;
-    
+    position:relative;
+    top:500px;
+    justify-content: center;
+    opacity:0.3;
 
 }
 .key{
     width:50px;
     line-height: 50px;
     margin:20px ;
+    text-align: center;
+    background-color: azure;
 }
