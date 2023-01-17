@@ -1,10 +1,10 @@
 function myFunction(event){
     const code= event.keycode;
-    const audio= document.querySelector(`audio[data-key="code"]`);
+    const audio= document.querySelector(`audio[data-key="${event.keycode}"]`);
     audio.currentTime=0; 
     audio.play();
 }
 
 
 
-document.addEventListener(keydown, myFunction)
+window.addEventListener('keydown', myFunction)
