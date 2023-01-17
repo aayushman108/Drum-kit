@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url();
+}
+.container{
+    display: flex;
+    background-color: brown;
+    
+
+}
+.key{
+    width:50px;
+    line-height: 50px;
+    margin:20px ;
+}
