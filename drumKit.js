@@ -7,7 +7,7 @@ function playSound(event){
     function myFunction(){
     add.classList.remove("enhance");
     }
-    setTimeout(myFunction, 200);
+    setTimeout(myFunction, );
     
 }
 window.addEventListener('keydown', playSound);
