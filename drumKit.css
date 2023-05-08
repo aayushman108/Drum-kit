@@ -23,6 +23,7 @@ body{
     margin:20px ;
     text-align: center;
     background-color: azure;
+    transition: all 0.05s ease;
     font-size: larger;
     font-weight: bolder;
     color: rgb(15, 15, 54);
