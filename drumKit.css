@@ -29,6 +29,8 @@ body{
     color: rgb(15, 15, 54);
 }
 .enhance{
-    border: 2px solid yellow;
-    background-color: green;
+    width: 55px;
+    line-height: 55px;
+    border: 2px solid rgb(15, 15, 9);
+    background-color: rgb(15, 15, 114);
 }
